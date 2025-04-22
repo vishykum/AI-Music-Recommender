@@ -1,0 +1,15 @@
+{"level":"warn","message":"User with provided username does not exist","method":"POST","status":"400","timestamp":"2025-04-22T07:13:39.400Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"User with provided username does not exist","method":"POST","status":"400","timestamp":"2025-04-22T07:14:54.077Z","url":"/users/login","user_ip":"::1"}
+{"error":{},"level":"error","message":"Error comparing passwords","method":"POST","status":"400","timestamp":"2025-04-22T07:15:15.143Z","url":"/users/login","user_ip":"::1"}
+{"error":{},"level":"error","message":"Error comparing passwords","method":"POST","status":"400","timestamp":"2025-04-22T07:15:43.876Z","url":"/users/login","user_ip":"::1"}
+{"error":{},"level":"error","message":"Error comparing passwords","method":"POST","status":"400","timestamp":"2025-04-22T07:17:34.169Z","url":"/users/login","user_ip":"::1"}
+{"error":{},"level":"error","message":"Error comparing passwords","method":"POST","status":"400","timestamp":"2025-04-22T07:18:12.587Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-22T07:24:56.032Z","url":"/users/login","user_ip":"::1","username":"test"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-22T07:28:24.414Z","url":"/users/login","user_ip":"::1","username":"test"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-22T07:28:39.324Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-22T07:28:54.479Z","url":"/users/login","user_ip":"::1","username":"test"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-22T07:33:19.150Z","url":"/users/login","user_ip":"::1","username":"test"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-22T07:35:29.817Z","url":"/users/login","user_ip":"::1","username":"test"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-22T07:42:04.785Z","url":"/users/login","user_ip":"::1","username":"test"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-22T07:51:11.148Z","url":"/users/auth","user_ip":"::1"}
+{"error":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sql":"SELECT music_preference FROM users WHERE email_id = 'test1@xmail.com';","sqlMessage":"Unknown column 'music_preference' in 'field list'","sqlState":"42S22"},"level":"error","message":"Error while retreiving data from db","method":"GET","status":"400","timestamp":"2025-04-22T07:51:38.511Z","url":"/users/settings","user_ip":"::1"}
