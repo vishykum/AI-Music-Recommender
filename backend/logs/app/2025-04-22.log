@@ -94,3 +94,40 @@
 {"level":"info","message":"User settings retrieved successfully","method":"GET","status":"200","timestamp":"2025-04-22T08:00:30.675Z","url":"/users/settings","user_ip":"::1"}
 {"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-22T08:00:48.227Z","url":"/users/settings","user_ip":"::1"}
 {"level":"info","message":"User settings updated successfully","method":"POST","status":"200","timestamp":"2025-04-22T08:00:48.243Z","url":"/users/settings","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T04:52:16.136Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-23T04:52:16.430Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T04:52:16.439Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InRlc3QxQHhtYWlsLmNvbSIsImlhdCI6MTc0NTM4MzkzNiwiZXhwIjoxNzQ1Mzg3NTM2fQ.QwNHYEBNShuPx873G2LYdXZIhxr9f89VjN8fbwBmRo8","url":"/users/login","user_ip":"::1","username":"test1@xmail.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T04:53:03.246Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T04:53:03.254Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T04:53:54.919Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-23T04:53:55.060Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-23T05:08:09.784Z","url":"/users/login","user_ip":"::1","username":"test1@xmail.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T05:08:22.002Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-23T05:08:22.004Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-23T05:08:22.008Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-23T05:08:22.011Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T05:08:28.971Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T05:08:29.277Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T05:08:56.801Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-23T05:08:57.103Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T05:08:57.117Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImZlam9uNjk0NTRAbGlueHVlcy5jb20iLCJpYXQiOjE3NDUzODQ5MzcsImV4cCI6MTc0NTM4ODUzN30.c2R_SHYLKEoVhTE-hjrH8KTBA9a5Zi_c6NhfbGikSW4","url":"/users/login","user_ip":"::1","username":"fejon69454@linxues.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T05:09:16.193Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T05:09:16.222Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T05:09:30.904Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-23T05:09:30.937Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T05:13:11.362Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"warn","message":"Email already verified","method":"GET","status":"400","timestamp":"2025-04-23T05:13:11.394Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T05:14:52.726Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"warn","message":"Email already verified","method":"GET","status":"400","timestamp":"2025-04-23T05:14:52.732Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T05:15:29.433Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T05:15:29.449Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T05:16:06.017Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-23T05:16:06.055Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T05:28:02.821Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T05:28:03.037Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T05:28:16.828Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-23T05:28:17.076Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T05:28:56.189Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-23T05:28:56.273Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T05:29:11.483Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-23T05:29:11.493Z","url":"/users/verify_email/:token","user_ip":"::1"}

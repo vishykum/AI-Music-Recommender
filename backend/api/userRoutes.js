@@ -7,12 +7,25 @@ const pool = require('../config');
 const util = require('util');
 const {cmdLogger, persistentLogger} = require('../logger');
 const bcrypt = require('bcrypt');
+const nodemailer = require('nodemailer');
+const path = require('path');
 
 const jwt = require('jsonwebtoken');
 const { send } = require('process');
 
 const poolQuery = util.promisify(pool.query).bind(pool);
 const table = 'users';
+
+const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: process.env.AUTH_EMAIL_ID,
+        pass: process.env.AUTH_EMAIL_PASSWORD
+    }
+});
+
+// Page after user is verified
+const verificationPage = "";
 
 function authMiddleware(req, res, next) {
     const token = req.cookies.token// Check for token in cookies
@@ -77,6 +90,17 @@ function userLoggedIn(req, res, next) {
     next();
 }
 
+async function sendEmail(to, link) {
+    await transporter.sendMail({
+        from: process.env.AUTH_EMAIL_ID,
+        to: to,
+        subject: 'Email Verification',
+        text: `Click the link to verify your email: ${link}`
+    });
+
+}
+
+router.use(express.static(path.join((__dirname, '../pages')))); // Serve static files from the pages directory
 
 router.post('/login', userLoggedIn, async (req, res) => {
     cmdLogger.info("Inside POST /users/login");
@@ -326,6 +350,122 @@ router.get('/settings', authMiddleware, async (req, res) => {
         });
 
         sendResponse(res, 400, "DB Error");
+    }
+});
+
+router.get('/send_verification_email', authMiddleware, async (req, res) => {
+    cmdLogger.info('Inside GET /users/send_verification_email');   
+    persistentLogger.info({
+        method: "GET",
+        url: "/users/send_verification_email",
+        status: "200",
+        message: "Request received",
+        user_ip: req.ip
+    });
+
+    const user = jwt.verify(req.cookies.token, process.env.JWT_SECRET_KEY);
+
+    const token = jwt.sign({email_id: user.email_id}, process.env.EMAIL_SECRET_KEY, {expiresIn: '24h'});
+
+    try {
+        const results = await poolQuery(`SELECT verified FROM ${table} WHERE email_id = ?`, [user.email_id]);
+
+        if (results.length == 1) {
+            if (results[0]['verified']) {
+                cmdLogger.warn('Email already verified');
+                persistentLogger.warn({
+                    method: "GET",
+                    url: "/users/send_verification_email",
+                    status: "400",
+                    message: "Email already verified",
+                    user_ip: req.ip
+                });
+
+                return sendResponse(res, 400, "Email already verified");
+            }
+        }
+        else {
+            cmdLogger.warn('Email id does not exist in db');
+            persistentLogger.warn({
+                method: "GET",
+                url: "/users/send_verification_email",
+                status: "400",
+                message: "Email id does not exist in db",
+                user_ip: req.ip
+            });
+
+            return sendResponse(res, 400, "Email id does not exist in db");
+        }
+    }
+    catch (err) {
+        cmdLogger.error(`Error retreiving data from db: ${err}`);
+        persistentLogger.error({
+            method: "GET",
+            url: "/users/send_verification_email",
+            status: "400",
+            message: "Error retreiving data from db",
+            user_ip: req.ip,
+            error: err
+        });
+        sendResponse(res, 400, "DB Error");
+    }
+    
+    const verificationLink = `http://localhost:3000/users/verify_email/${token}`; // Change to frontend URL
+
+    sendEmail(user.email_id, verificationLink);
+
+    sendResponse(res, 200, "Verification email sent", verificationLink);
+    cmdLogger.info('Verification email sent successfully');
+    persistentLogger.info({
+        method: "GET",
+        url: "/users/send_verification_email",
+        status: "200",
+        message: "Verification email sent successfully",
+        user_ip: req.ip
+    });
+});
+
+router.get('/verify_email/:token', async (req, res) => {
+    cmdLogger.info('Inside GET /users/verify_email/:token');
+    persistentLogger.info({
+        method: "GET",
+        url: "/users/verify_email/:token",
+        status: "200",
+        message: "Request received",
+        user_ip: req.ip
+    });
+
+    const token = req.params.token;
+
+    try {
+        const decoded = jwt.verify(token, process.env.EMAIL_SECRET_KEY);
+        const email_id = decoded.email_id;
+
+        const results = await poolQuery(`UPDATE ${table} SET verified = ? WHERE email_id = ?;`, [true, email_id]);
+
+        res.sendFile('verified.html', { root: path.join(__dirname, '../pages') });
+
+
+        cmdLogger.info('Email verified successfully');
+        persistentLogger.info({
+            method: "GET",
+            url: "/users/verify_email/:token",
+            status: "200",
+            message: "Email verified successfully",
+            user_ip: req.ip
+        });
+    } catch (err) {
+        cmdLogger.error(`Error verifying email: ${err}`);
+        persistentLogger.error({
+            method: "GET",
+            url: "/users/verify_email/:token",
+            status: "400",
+            message: "Error verifying email",
+            user_ip: req.ip,
+            error: err
+        });
+
+        sendResponse(res, 400, "Invalid or expired token");
     }
 });
 

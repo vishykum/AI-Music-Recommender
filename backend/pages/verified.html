@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email Verified</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      color: #2d8f3c;
+    }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>✅ Your email has been verified!</h1>
+  <p>You will be redirected shortly.</p>
+  <p>If you are not redirected within 5 seconds, <a id="manual-link" href="https://google.com">click here</a>.</p>
+
+  <script>
+    const redirectUrl = "https://google.com"; // Replace with actual destination
+    setTimeout(() => {
+      window.location.href = redirectUrl;
+    }, 5000);
+  </script>
+</body>
+</html>
