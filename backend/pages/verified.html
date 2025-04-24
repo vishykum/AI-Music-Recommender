@@ -28,10 +28,12 @@
 <body>
   <h1>✅ Your email has been verified!</h1>
   <p>You will be redirected shortly.</p>
-  <p>If you are not redirected within 5 seconds, <a id="manual-link" href="https://google.com">click here</a>.</p>
+  <p>If you are not redirected within 5 seconds, <a id="manual-link" href="#">click here</a>.</p>
 
   <script>
-    const redirectUrl = "https://google.com"; // Replace with actual destination
+    const redirectUrl = '{{REDIRECT_URL}}';
+    document.getElementById('manual-link').href = redirectUrl;
+
     setTimeout(() => {
       window.location.href = redirectUrl;
     }, 5000);

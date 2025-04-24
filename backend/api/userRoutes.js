@@ -7,22 +7,15 @@ const pool = require('../config');
 const util = require('util');
 const {cmdLogger, persistentLogger} = require('../logger');
 const bcrypt = require('bcrypt');
-const nodemailer = require('nodemailer');
+const sendEmail = require('./sendEmail').sendVerificationEmail;
+const verifyEmail = require('./sendEmail').verifyEmail;
 const path = require('path');
+const fs = require('fs');
 
 const jwt = require('jsonwebtoken');
-const { send } = require('process');
 
 const poolQuery = util.promisify(pool.query).bind(pool);
 const table = 'users';
-
-const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-        user: process.env.AUTH_EMAIL_ID,
-        pass: process.env.AUTH_EMAIL_PASSWORD
-    }
-});
 
 // Page after user is verified
 const verificationPage = "";
@@ -90,17 +83,11 @@ function userLoggedIn(req, res, next) {
     next();
 }
 
-async function sendEmail(to, link) {
-    await transporter.sendMail({
-        from: process.env.AUTH_EMAIL_ID,
-        to: to,
-        subject: 'Email Verification',
-        text: `Click the link to verify your email: ${link}`
-    });
-
-}
-
 router.use(express.static(path.join((__dirname, '../pages')))); // Serve static files from the pages directory
+
+router.get('/user_logged_in', authMiddleware, async (req, res) => {
+    sendResponse(res, 200, "User is logged in");
+});
 
 router.post('/login', userLoggedIn, async (req, res) => {
     cmdLogger.info("Inside POST /users/login");
@@ -113,7 +100,6 @@ router.post('/login', userLoggedIn, async (req, res) => {
     });
 
     const userInfo = req.body;
-    
     
     if (!userInfo.email_id || !userInfo.password) {
         cmdLogger.warn("Email id and/or password not part of request body");
@@ -155,7 +141,6 @@ router.post('/login', userLoggedIn, async (req, res) => {
                         cmdLogger.info("Token created successfully");
                         res.cookie('token', token, {
                             httpOnly: true,
-                            sameSite: 'Strict',
                             maxAge: 3600 * 1000, // 1 hour
                             secure: process.env.NODE_ENV === 'production'
                         }); // Set token in cookie
@@ -183,7 +168,7 @@ router.post('/login', userLoggedIn, async (req, res) => {
                             message: "User authentication failed: invalid password",
                             user_ip: req.ip
                         });
-                        sendResponse(res, 400, "Invalid username or password");
+                        sendResponse(res, 401, "Invalid username or password");
                     }
                 }
                 
@@ -213,7 +198,7 @@ router.post('/login', userLoggedIn, async (req, res) => {
                     user_ip: req.ip
                 });
 
-                sendResponse(res, 400, "Invalid username or password");
+                sendResponse(res, 401, "Invalid username or password");
             }
         }
 
@@ -260,6 +245,23 @@ router.post('/register', userLoggedIn, async (req, res) => {
     else {
 
         try {
+            const isValidEmail = await verifyEmail(userInfo.email_id);
+
+            if (isValidEmail === false) {
+                cmdLogger.error('Invalid email address: ' + userInfo.email_id);
+                persistentLogger.error({
+                    method: "POST",
+                    url: "/users/register",
+                    status: "400",
+                    message: "Invalid email address",
+                    user_ip: req.ip,
+                    email_id: userInfo.email_id
+                });
+
+                sendResponse(res, 400, "Invalid email address");
+                return;
+            }
+
             const results = await poolQuery(`SELECT * FROM ${table} WHERE email_id = ?;`, [userInfo.email_id]);
 
             if (results.length == 0) {
@@ -278,7 +280,29 @@ router.post('/register', userLoggedIn, async (req, res) => {
                         user_ip: req.ip
                     });
 
-                    sendResponse(res, 200, "New user created", results.insertId);
+                    // Send JWT cookie to user
+                    cmdLogger.info("Creating JWT token");
+
+                    const token = jwt.sign({email_id: userInfo.email_id}, process.env.JWT_SECRET_KEY, {expiresIn: process.env.JWT_EXPIRATION_TIME});
+
+                    cmdLogger.info("Token created successfully");
+                    res.cookie('token', token, {
+                        httpOnly: true,
+                        maxAge: 3600 * 1000, // 1 hour
+                        secure: process.env.NODE_ENV === 'production'
+                    }); // Set token in cookie
+
+                    cmdLogger.info(`JWT created: ${token}`);
+                    persistentLogger.info({
+                        method: "POST",
+                        url: "/users/login",
+                        status: "200",
+                        message: "JWT created",
+                        user_ip: req.ip,
+                        token: token,
+                        username: userInfo.email_id
+                    });
+                    sendResponse(res, 200, "User registered successfully");
                 } catch (err) {
                     cmdLogger.error('Error inserting new user: ', err);
                     persistentLogger.error({
@@ -304,7 +328,7 @@ router.post('/register', userLoggedIn, async (req, res) => {
                     user_ip: req.ip
                 });
 
-                sendResponse(res, 400, "email id already exists");
+                sendResponse(res, 409, "Email id already exists");
             }
 
         } catch (err) {
@@ -412,17 +436,23 @@ router.get('/send_verification_email', authMiddleware, async (req, res) => {
     
     const verificationLink = `http://localhost:3000/users/verify_email/${token}`; // Change to frontend URL
 
-    sendEmail(user.email_id, verificationLink);
+    const status = await sendEmail(user.email_id, verificationLink);
+    if (status === false) {
+        cmdLogger.info("Invalid email address");
+        sendResponse(res, 400, "Invalid email");
+    }
 
-    sendResponse(res, 200, "Verification email sent", verificationLink);
-    cmdLogger.info('Verification email sent successfully');
-    persistentLogger.info({
-        method: "GET",
-        url: "/users/send_verification_email",
-        status: "200",
-        message: "Verification email sent successfully",
-        user_ip: req.ip
-    });
+    else {   
+        sendResponse(res, 200, "Verification email sent", verificationLink);
+        cmdLogger.info('Verification email sent successfully');
+        persistentLogger.info({
+            method: "GET",
+            url: "/users/send_verification_email",
+            status: "200",
+            message: "Verification email sent successfully",
+            user_ip: req.ip
+        });
+    }
 });
 
 router.get('/verify_email/:token', async (req, res) => {
@@ -443,7 +473,14 @@ router.get('/verify_email/:token', async (req, res) => {
 
         const results = await poolQuery(`UPDATE ${table} SET verified = ? WHERE email_id = ?;`, [true, email_id]);
 
-        res.sendFile('verified.html', { root: path.join(__dirname, '../pages') });
+        //Send redirect page to user
+        const redirectUrl = `${process.env.FRONTEND_URL}/`; // Change to frontend URL
+
+        let html = fs.readFileSync(path.join(__dirname, '../pages/verified.html'), 'utf8'); 
+        html = html.replace('{{REDIRECT_URL}}', redirectUrl);
+
+        res.set('Content-Type', 'text/html');
+        res.send(html);
 
 
         cmdLogger.info('Email verified successfully');

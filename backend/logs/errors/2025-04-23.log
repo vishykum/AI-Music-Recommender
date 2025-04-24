@@ -1,0 +1,68 @@
+{"level":"warn","message":"Email id and/or password not part of request body","method":"POST","status":"400","timestamp":"2025-04-23T07:14:29.223Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"Email id and/or password not part of request body","method":"POST","status":"400","timestamp":"2025-04-23T07:14:46.965Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"Email id and/or password not part of request body","method":"POST","status":"400","timestamp":"2025-04-23T07:14:58.135Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"Email id and/or password not part of request body","method":"POST","status":"400","timestamp":"2025-04-23T07:15:13.707Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"Email id and/or password not part of request body","method":"POST","status":"400","timestamp":"2025-04-23T07:16:08.756Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-23T07:18:32.363Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-23T07:19:50.950Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-23T07:24:10.823Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-23T07:31:53.098Z","url":"/users/auth","user_ip":"::1"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Error occurred while inserting new user to the db","method":"POST","status":"400","timestamp":"2025-04-23T07:34:32.327Z","url":"/users/register","user_ip":"::1"}
+{"level":"warn","message":"Email id does not exist in db","method":"GET","status":"400","timestamp":"2025-04-23T07:35:34.120Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-23T07:39:23.394Z","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-23T07:40:08.491Z","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-23T07:41:55.358Z","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"warn","message":"Email id already exists","method":"POST","status":"400","timestamp":"2025-04-23T07:43:54.315Z","url":"/users/register","user_ip":"::1"}
+{"level":"warn","message":"Email id already exists","method":"POST","status":"400","timestamp":"2025-04-24T00:03:16.007Z","url":"/users/register","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:06:07.786Z","url":"/users/login","user_ip":"::1","username":"fejon69454@linxues.com"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T00:12:38.911Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"User authentication failed: invalid password","method":"POST","status":"400","timestamp":"2025-04-24T00:12:42.787Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"User authentication failed: invalid password","method":"POST","status":"400","timestamp":"2025-04-24T00:13:28.883Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"User authentication failed: invalid password","method":"POST","status":"400","timestamp":"2025-04-24T00:19:13.017Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:33:19.304Z","url":"/users/login","user_ip":"::1","username":"fejon69454@linxues.com"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:44:33.349Z","url":"/users/login","user_ip":"::1","username":"fejon69454@linxues.com"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:47:39.032Z","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:48:29.656Z","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:54:25.566Z","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:55:02.775Z","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:56:20.212Z","url":"/users/login","user_ip":"::1","username":"asd@aswa"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T01:00:57.917Z","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email format","method":"POST","status":"400","timestamp":"2025-04-24T01:01:05.257Z","url":"/users/send_verification_email"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email format","method":"POST","status":"400","timestamp":"2025-04-24T01:03:17.637Z","url":"/users/send_verification_email"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email address","method":"POST","status":"400","timestamp":"2025-04-24T01:03:17.638Z","url":"/users/send_verification_email"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email format","method":"POST","status":"400","timestamp":"2025-04-24T01:05:13.977Z","url":"/users/send_verification_email"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email address","method":"POST","status":"400","timestamp":"2025-04-24T01:05:13.978Z","url":"/users/send_verification_email"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email format","method":"POST","status":"400","timestamp":"2025-04-24T01:05:32.481Z","url":"/users/send_verification_email"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email address","method":"POST","status":"400","timestamp":"2025-04-24T01:05:32.483Z","url":"/users/send_verification_email"}
+{"email_id":"abc@adw.com","error":{"code":"ESERVFAIL","hostname":"adw.com","syscall":"queryMx"},"level":"error","message":"Error resolving MX records for domain","method":"POST","status":"400","timestamp":"2025-04-24T01:23:39.923Z","url":"/users/send_verification_email"}
+{"email_id":"abc@adw.com","level":"error","message":"Invalid email address","method":"POST","status":"400","timestamp":"2025-04-24T01:23:39.924Z","url":"/users/send_verification_email"}
+{"error":{},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:25:09.003Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:26:11.919Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:27:25.703Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:27:51.012Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:28:07.167Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:28:15.496Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T01:30:33.011Z","url":"/users/auth","user_ip":"::1"}
+{"email_id":"abc@abc","level":"error","message":"Invalid email format","method":"POST","status":"400","timestamp":"2025-04-24T01:34:53.775Z","url":"/users/send_verification_email"}
+{"email_id":"abc@abc","level":"error","message":"Invalid email address","method":"POST","status":"400","timestamp":"2025-04-24T01:34:53.777Z","url":"/users/register","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T01:35:59.597Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T01:37:15.332Z","url":"/users/login","user_ip":"::1","username":"vishymans@gmail.com"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T02:12:36.901Z","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:16:15.623Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:24:51.397Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:24:51.425Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:18.464Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:18.474Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:43.657Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:43.664Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:43.913Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:43.975Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:52.636Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:52.644Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:52.917Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:52.928Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:53.892Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:53.900Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:54.081Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:54.089Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"User authentication failed: invalid password","method":"POST","status":"400","timestamp":"2025-04-24T02:37:35.867Z","url":"/users/login","user_ip":"::1"}

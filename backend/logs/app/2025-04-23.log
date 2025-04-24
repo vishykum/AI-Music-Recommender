@@ -1,0 +1,471 @@
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T07:14:29.222Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"Email id and/or password not part of request body","method":"POST","status":"400","timestamp":"2025-04-23T07:14:29.223Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T07:14:46.959Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"Email id and/or password not part of request body","method":"POST","status":"400","timestamp":"2025-04-23T07:14:46.963Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T07:14:58.134Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"Email id and/or password not part of request body","method":"POST","status":"400","timestamp":"2025-04-23T07:14:58.135Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T07:15:13.704Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"Email id and/or password not part of request body","method":"POST","status":"400","timestamp":"2025-04-23T07:15:13.706Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T07:15:25.237Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-23T07:15:25.651Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:15:25.656Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InRlc3QiLCJpYXQiOjE3NDUzOTI1MjUsImV4cCI6MTc0NTM5NjEyNX0.G7pE2hfoEsQL1BZCSF6byutqVrAjhCAWsQtl_it5Uk0","url":"/users/login","user_ip":"::1","username":"test"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T07:16:08.754Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"Email id and/or password not part of request body","method":"POST","status":"400","timestamp":"2025-04-23T07:16:08.755Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-23T07:18:32.362Z","url":"/users/auth","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T07:19:48.861Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-23T07:19:49.233Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:19:49.235Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InRlc3QiLCJpYXQiOjE3NDUzOTI3ODksImV4cCI6MTc0NTM5NjM4OX0.ml3m70AvcCoQDuwCcTZjqCOOCWrCIlgyV30GGEBTSAY","url":"/users/login","user_ip":"::1","username":"test"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-23T07:19:50.949Z","url":"/users/auth","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T07:20:33.489Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-23T07:20:33.825Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:20:33.833Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InRlc3QiLCJpYXQiOjE3NDUzOTI4MzMsImV4cCI6MTc0NTM5NjQzM30.JWK1nLDatbSAXAalqqkz1X-PHs4CGdFoVyRelePpnzg","url":"/users/login","user_ip":"::1","username":"test"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T07:21:20.061Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-23T07:21:20.588Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:21:20.591Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InRlc3QiLCJpYXQiOjE3NDUzOTI4ODAsImV4cCI6MTc0NTM5NjQ4MH0.9fmJX3FTqGy1hbtDviOB4U0CNq_SE1PVlwZ6GG6YhUM","url":"/users/login","user_ip":"::1","username":"test"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T07:23:50.396Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-23T07:23:50.737Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:23:50.743Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InRlc3QiLCJpYXQiOjE3NDUzOTMwMzAsImV4cCI6MTc0NTM5NjYzMH0.R_L8lCCFlR_L2CDq6BCZfn0AV36Y1m7E38imL6nOPpM","url":"/users/login","user_ip":"::1","username":"test"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-23T07:24:10.823Z","url":"/users/auth","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:24:24.929Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-23T07:24:24.929Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-23T07:24:24.931Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-23T07:24:24.932Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:27:45.415Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T07:27:45.531Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:30:51.015Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T07:30:51.222Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:31:52.996Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T07:31:53.090Z","url":"/users/register","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-23T07:31:53.098Z","url":"/users/auth","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:34:32.194Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T07:34:32.324Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:34:32.325Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Error occurred while inserting new user to the db","method":"POST","status":"400","timestamp":"2025-04-23T07:34:32.327Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:35:34.005Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T07:35:34.114Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:35:34.115Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"warn","message":"Email id does not exist in db","method":"GET","status":"400","timestamp":"2025-04-23T07:35:34.120Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:37:55.778Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T07:37:55.883Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:37:55.890Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InZhdGVyeWtvQGxvZ3NtYXJ0ZXIubmV0IiwiaWF0IjoxNzQ1MzkzODc1LCJleHAiOjE3NDUzOTc0NzV9.kS0Phy2ijeRszasjLLW15hIrnFzvGyY3-EDFRR9SxKs","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:37:55.903Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T07:37:55.915Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-23T07:39:23.393Z","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:39:26.644Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-23T07:39:26.645Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-23T07:39:26.647Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-23T07:39:26.648Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:39:35.401Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T07:39:35.550Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:39:35.555Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InZhdGVyeWtvQGxvZ3NtYXJ0ZXIubmV0IiwiaWF0IjoxNzQ1MzkzOTc1LCJleHAiOjE3NDUzOTc1NzV9.cM_zfCI0WH_NueGpxsdEN2R4oUYHdOzDVWmnaPb7BxM","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:39:35.565Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T07:39:35.584Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-23T07:40:08.490Z","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:40:11.119Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-23T07:40:11.120Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-23T07:40:11.123Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-23T07:40:11.125Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:40:18.430Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T07:40:18.548Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:40:18.554Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InZhdGVyeWtvQGxvZ3NtYXJ0ZXIubmV0IiwiaWF0IjoxNzQ1Mzk0MDE4LCJleHAiOjE3NDUzOTc2MTh9.rxpSoPgYXCWWEzfUunwYLzdYjuyv3YDiCzeaoZy3WXo","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:40:18.563Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T07:40:18.574Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-23T07:40:19.625Z","url":"/users/send_verification_email"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-23T07:41:55.357Z","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:41:58.075Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-23T07:41:58.076Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-23T07:41:58.080Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-23T07:41:58.085Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:42:02.843Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T07:42:03.090Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:42:03.095Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InZhdGVyeWtvQGxvZ3NtYXJ0ZXIubmV0IiwiaWF0IjoxNzQ1Mzk0MTIzLCJleHAiOjE3NDUzOTc3MjN9.L-Dxd5H77frDvIZVSeo0eL-kLJetfOjl9b3YQ6mN0t8","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:42:03.111Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T07:42:03.132Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-23T07:42:04.716Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:43:48.070Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-23T07:43:48.072Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-23T07:43:48.075Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-23T07:43:48.076Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:43:54.274Z","url":"/users/register","user_ip":"::1"}
+{"level":"warn","message":"Email id already exists","method":"POST","status":"400","timestamp":"2025-04-23T07:43:54.314Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:44:05.745Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T07:44:05.880Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:44:05.887Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InZhdGVyeWtvQGxvZ3NtYXJ0ZXIubmV0IiwiaWF0IjoxNzQ1Mzk0MjQ1LCJleHAiOjE3NDUzOTc4NDV9.g35ILeL26eX5hq0ElpnIQhbVhGw-fpbcs2dqYolS7xM","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:44:05.897Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T07:44:05.912Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-23T07:44:07.223Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-23T07:45:12.796Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-23T07:45:13.091Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:45:13.108Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InZhdGVyeWtvQGxvZ3NtYXJ0ZXIubmV0IiwiaWF0IjoxNzQ1Mzk0MzEzLCJleHAiOjE3NDUzOTc5MTN9.QGf5tF4CQn_-Zngjkrg_2YD-nWegTx7nggmqO5wrBpQ","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:45:29.298Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T07:45:29.322Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-23T07:45:30.498Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:45:48.422Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-23T07:45:48.422Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-23T07:45:48.423Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-23T07:45:48.424Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T07:46:02.217Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-23T07:46:02.431Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T07:46:02.437Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InZhdGVyeWtvQGxvZ3NtYXJ0ZXIubmV0IiwiaWF0IjoxNzQ1Mzk0MzYyLCJleHAiOjE3NDUzOTc5NjJ9.q-LPQPGjfj5752KnqXL2_WboKoxExVUT88YBTXh4CAo","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T07:46:25.249Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T07:46:25.265Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-23T07:46:26.081Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-23T23:57:18.931Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-23T23:57:19.069Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-23T23:57:19.079Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InZhdGVyeWtvQGxvZ3NtYXJ0ZXIubmV0IiwiaWF0IjoxNzQ1NDUyNjM5LCJleHAiOjE3NDU0NTYyMzl9.IgQ94XfhVl9TPHX0aQUkiLiRYdBDKgxWLdINuabYt7Q","url":"/users/login","user_ip":"::1","username":"vateryko@logsmarter.net"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T23:57:57.394Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T23:57:57.411Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-23T23:57:58.586Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T23:58:23.241Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T23:58:23.279Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-23T23:58:24.353Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T23:58:54.772Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T23:58:54.803Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-23T23:58:56.041Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T23:59:13.164Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T23:59:13.197Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-23T23:59:14.408Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-23T23:59:56.666Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-23T23:59:56.707Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-23T23:59:57.703Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:00:21.241Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T00:00:21.295Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T00:00:22.640Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:00:59.779Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T00:00:59.887Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vateryko@logsmarter.net","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T00:01:01.366Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T00:03:15.988Z","url":"/users/register","user_ip":"::1"}
+{"level":"warn","message":"Email id already exists","method":"POST","status":"400","timestamp":"2025-04-24T00:03:16.007Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T00:03:58.964Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T00:03:59.114Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T00:03:59.121Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImZlam9uNjk0NTRAbGlueHVlcy5jb20iLCJpYXQiOjE3NDU0NTMwMzksImV4cCI6MTc0NTQ1NjYzOX0.cpCKKyw6mmsEfVRW0L1m1sQzl-KRZX63oA5GkcEW5z0","url":"/users/login","user_ip":"::1","username":"fejon69454@linxues.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:03:59.135Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T00:03:59.152Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"fejon69454@linxues.com","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T00:04:00.203Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:04:26.162Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-24T00:04:26.252Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:06:07.786Z","url":"/users/login","user_ip":"::1","username":"fejon69454@linxues.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:06:10.349Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T00:06:10.349Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T00:06:10.351Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T00:06:10.352Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T00:06:14.600Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-24T00:06:14.709Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T00:06:14.715Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImZlam9uNjk0NTRAbGlueHVlcy5jb20iLCJpYXQiOjE3NDU0NTMxNzQsImV4cCI6MTc0NTQ1Njc3NH0.lblL5_PpgMFC0v2vraC3RfSTDXSCDz59R-S1j_MAOUg","url":"/users/login","user_ip":"::1","username":"fejon69454@linxues.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:06:17.895Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T00:06:17.895Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T00:06:17.896Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T00:06:17.897Z","url":"/users/logout","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T00:12:38.910Z","url":"/users/auth","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T00:12:42.660Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"User authentication failed: invalid password","method":"POST","status":"400","timestamp":"2025-04-24T00:12:42.787Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T00:13:28.799Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"User authentication failed: invalid password","method":"POST","status":"400","timestamp":"2025-04-24T00:13:28.882Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T00:19:12.896Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"User authentication failed: invalid password","method":"POST","status":"400","timestamp":"2025-04-24T00:19:13.017Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T00:19:19.474Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-24T00:19:19.673Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T00:19:19.689Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImZlam9uNjk0NTRAbGlueHVlcy5jb20iLCJpYXQiOjE3NDU0NTM5NTksImV4cCI6MTc0NTQ1NzU1OX0.EeHH6ZLoXxrLa3QZM_8Tvm8ew4_0sFBngyulO2ym2BA","url":"/users/login","user_ip":"::1","username":"fejon69454@linxues.com"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:33:19.304Z","url":"/users/login","user_ip":"::1","username":"fejon69454@linxues.com"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:44:33.348Z","url":"/users/login","user_ip":"::1","username":"fejon69454@linxues.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:44:36.716Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T00:44:36.716Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T00:44:36.718Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T00:44:36.719Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T00:44:45.908Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T00:44:46.052Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T00:44:46.056Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDU1NDg2LCJleHAiOjE3NDU0NTkwODZ9.W5ysyvu2JMORVaroiTHobD7JQNj5N416lxJ-k7heNR0","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:44:46.066Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T00:44:46.086Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw.com","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T00:44:47.348Z","url":"/users/send_verification_email"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:47:39.032Z","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:47:40.993Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T00:47:40.993Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T00:47:40.996Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T00:47:40.997Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T00:47:46.576Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T00:47:46.701Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T00:47:46.705Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDU1NjY2LCJleHAiOjE3NDU0NTkyNjZ9.iWKLZ7PK96-Er0kLz0ok9p_xpRzyDW5k7gALVpFeb4U","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:47:46.716Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T00:47:46.731Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw.com","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T00:47:47.773Z","url":"/users/send_verification_email"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:48:29.655Z","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:48:31.868Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T00:48:31.869Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T00:48:31.871Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T00:48:31.872Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T00:48:37.189Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T00:48:37.378Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T00:48:37.387Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDU1NzE3LCJleHAiOjE3NDU0NTkzMTd9.fQZudhhX2XzAQRjDOh9gRl1aBzfL3c1MUN_t3NHijeE","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:48:37.401Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T00:48:37.427Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw.com","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T00:48:38.482Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:49:17.176Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T00:49:17.176Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T00:49:17.177Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T00:49:17.178Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T00:49:21.078Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T00:49:21.179Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T00:49:21.182Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3ciLCJpYXQiOjE3NDU0NTU3NjEsImV4cCI6MTc0NTQ1OTM2MX0.OBMtG0aynyBuyHYw1g50dw3TbyEnd2IkcoW91AhU4Ro","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:49:21.192Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T00:49:21.197Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T00:49:22.099Z","url":"/users/send_verification_email"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:54:25.566Z","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:54:27.482Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T00:54:27.483Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T00:54:27.484Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T00:54:27.486Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T00:54:34.154Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T00:54:34.284Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T00:54:34.287Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3ciLCJpYXQiOjE3NDU0NTYwNzQsImV4cCI6MTc0NTQ1OTY3NH0.flcVVpGrgsuPD2pwdw50H1CM339_e2vB67R-2MZlQLc","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:54:34.297Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T00:54:34.312Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:55:02.774Z","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:55:06.265Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T00:55:06.266Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T00:55:06.268Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T00:55:06.270Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T00:55:12.436Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T00:55:12.555Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T00:55:12.559Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3dhIiwiaWF0IjoxNzQ1NDU2MTEyLCJleHAiOjE3NDU0NTk3MTJ9.oDT-hF943PIBVMe9tpf-SHsVN_9Raiws9NJ1AkvZfCc","url":"/users/login","user_ip":"::1","username":"asd@aswa"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:55:12.571Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T00:55:12.585Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@aswa","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T00:55:13.460Z","url":"/users/send_verification_email"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T00:56:20.212Z","url":"/users/login","user_ip":"::1","username":"asd@aswa"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:56:21.655Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T00:56:21.656Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T00:56:21.657Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T00:56:21.659Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T00:56:26.788Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T00:56:26.926Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T00:56:26.931Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3ciLCJpYXQiOjE3NDU0NTYxODYsImV4cCI6MTc0NTQ1OTc4Nn0.jJuqHRgyFPxewfnZvZ2pLk64jAPH_DOA6xk7x1AKSts","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T00:56:26.942Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T00:56:26.957Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T00:56:27.976Z","url":"/users/send_verification_email"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T01:00:57.916Z","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:01:00.299Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:01:00.300Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:01:00.302Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:01:00.303Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:01:05.056Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T01:01:05.228Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:01:05.234Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3ciLCJpYXQiOjE3NDU0NTY0NjUsImV4cCI6MTc0NTQ2MDA2NX0.8gS0c9wBtW7nHme6clWLl5ZhJ68iHakItJnGtL0x8Xk","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:01:05.246Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email format","method":"POST","status":"400","timestamp":"2025-04-24T01:01:05.256Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:01:05.274Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T01:01:06.345Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:03:12.130Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:03:12.132Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:03:12.134Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:03:12.135Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:03:17.512Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T01:03:17.618Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:03:17.622Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3ciLCJpYXQiOjE3NDU0NTY1OTcsImV4cCI6MTc0NTQ2MDE5N30.HzEaoKGt41zSubW35wCoadQ5GyTXxbJRS9FMv3GZWds","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:03:17.632Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email format","method":"POST","status":"400","timestamp":"2025-04-24T01:03:17.637Z","url":"/users/send_verification_email"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email address","method":"POST","status":"400","timestamp":"2025-04-24T01:03:17.638Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:05:08.827Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:05:08.828Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:05:08.831Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:05:08.833Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:05:13.843Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T01:05:13.954Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:05:13.958Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3ciLCJpYXQiOjE3NDU0NTY3MTMsImV4cCI6MTc0NTQ2MDMxM30.ix_fVEN1WzjLaba7qqKWw4VqZRew00e3s8gA-7B4TWw","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:05:13.969Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email format","method":"POST","status":"400","timestamp":"2025-04-24T01:05:13.977Z","url":"/users/send_verification_email"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email address","method":"POST","status":"400","timestamp":"2025-04-24T01:05:13.978Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:05:22.642Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:05:22.645Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:05:22.656Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:05:22.657Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:05:32.280Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T01:05:32.453Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:05:32.459Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3ciLCJpYXQiOjE3NDU0NTY3MzIsImV4cCI6MTc0NTQ2MDMzMn0.9WZBqHqHnYhqSoVN5LEtchhmuYT_WtGY841cfhdVXqA","url":"/users/login","user_ip":"::1","username":"asd@asw"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:05:32.473Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email format","method":"POST","status":"400","timestamp":"2025-04-24T01:05:32.481Z","url":"/users/send_verification_email"}
+{"email_id":"asd@asw","level":"error","message":"Invalid email address","method":"POST","status":"400","timestamp":"2025-04-24T01:05:32.483Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:06:40.110Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:06:40.113Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:06:40.117Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:06:40.119Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:06:47.706Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T01:06:47.986Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:06:47.994Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDU2ODA3LCJleHAiOjE3NDU0NjA0MDd9.LRy_u8ZnqgZAOnk_sYeMbM7SMNFi_nfo-8P7-B1KIkc","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:06:48.012Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw.com","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T01:06:49.073Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:06:49.075Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:15:40.211Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:15:40.212Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:15:40.214Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:15:40.216Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:15:42.983Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T01:15:43.110Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:15:43.114Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDU3MzQzLCJleHAiOjE3NDU0NjA5NDN9.Gh2DROAINFJ4dV1k_kGFRuoNDyDHshdpkQimywu4P0M","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:15:43.128Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw.com","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T01:15:44.166Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:15:44.168Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:15:46.050Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:15:46.063Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:23:37.907Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:23:37.908Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:23:37.910Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:23:37.911Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:23:39.624Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T01:23:39.762Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:23:39.767Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFiY0BhZHcuY29tIiwiaWF0IjoxNzQ1NDU3ODE5LCJleHAiOjE3NDU0NjE0MTl9.1qPYaZNHHeTBggOO4mLr6Op-oSAvaCFCrBVYWSheaSA","url":"/users/login","user_ip":"::1","username":"abc@adw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:23:39.782Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"abc@adw.com","error":{"code":"ESERVFAIL","hostname":"adw.com","syscall":"queryMx"},"level":"error","message":"Error resolving MX records for domain","method":"POST","status":"400","timestamp":"2025-04-24T01:23:39.922Z","url":"/users/send_verification_email"}
+{"email_id":"abc@adw.com","level":"error","message":"Invalid email address","method":"POST","status":"400","timestamp":"2025-04-24T01:23:39.924Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:24:58.870Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:24:58.870Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:24:58.871Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:24:58.872Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:25:00.263Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T01:25:00.484Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:25:00.490Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDU3OTAwLCJleHAiOjE3NDU0NjE1MDB9.gWc96D7BSR3H9ht7RWC913svqSiAD_lUKa9UOtKlJwI","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:25:00.506Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw.com","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T01:25:01.630Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:25:01.631Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:25:08.991Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"error":{},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:25:09.002Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:25:58.084Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:25:58.085Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:25:58.087Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:25:58.088Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:26:03.450Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T01:26:03.581Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:26:03.586Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDU3OTYzLCJleHAiOjE3NDU0NjE1NjN9.JYHO8l3y8GQHqdvB19uJeySk-vuP3nDEYBi3ghiEg9I","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:26:03.600Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw.com","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T01:26:04.964Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:26:04.966Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:26:06.811Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:26:06.817Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:26:11.917Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:26:11.918Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:27:25.702Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:27:25.703Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:27:45.911Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:27:45.915Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:27:51.010Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:27:51.011Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:28:02.107Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:28:02.110Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:28:07.167Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:28:07.167Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:28:10.362Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:28:10.368Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:28:15.495Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying email","method":"GET","status":"400","timestamp":"2025-04-24T01:28:15.496Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T01:30:33.010Z","url":"/users/auth","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:30:34.282Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T01:30:34.426Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:30:34.433Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDU4MjM0LCJleHAiOjE3NDU0NjE4MzR9.qZdkCN7tjxQO4CdRpPpWwNSqB8JzXORW96QKS_HywAQ","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:30:34.443Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw.com","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T01:30:36.185Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:30:36.186Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:30:41.594Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:30:41.602Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:34:52.625Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:34:52.626Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:34:52.628Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:34:52.629Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:34:53.773Z","url":"/users/register","user_ip":"::1"}
+{"email_id":"abc@abc","level":"error","message":"Invalid email format","method":"POST","status":"400","timestamp":"2025-04-24T01:34:53.775Z","url":"/users/send_verification_email"}
+{"email_id":"abc@abc","level":"error","message":"Invalid email address","method":"POST","status":"400","timestamp":"2025-04-24T01:34:53.777Z","url":"/users/register","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T01:35:59.597Z","url":"/users/auth","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T01:36:10.993Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T01:36:11.252Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:36:11.261Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InZpc2h5bWFuc0BnbWFpbC5jb20iLCJpYXQiOjE3NDU0NTg1NzEsImV4cCI6MTc0NTQ2MjE3MX0.xT46YIGSjaTV8TiJOP85YAuUksnVh_cRg1sciykMsMQ","url":"/users/login","user_ip":"::1","username":"vishymans@gmail.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:36:11.278Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"vishymans@gmail.com","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T01:36:12.345Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:36:12.347Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:36:37.703Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"info","message":"Email verified successfully","method":"GET","status":"200","timestamp":"2025-04-24T01:36:37.714Z","url":"/users/verify_email/:token","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T01:37:15.332Z","url":"/users/login","user_ip":"::1","username":"vishymans@gmail.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:37:17.877Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:37:17.877Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:37:17.878Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:37:17.879Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T01:37:22.973Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-24T01:37:23.120Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T01:37:23.124Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6InZpc2h5bWFuc0BnbWFpbC5jb20iLCJpYXQiOjE3NDU0NTg2NDMsImV4cCI6MTc0NTQ2MjI0M30.FHuRxlXhgNzq-bfWbyOQdzAjd81xRanvTfZMSDcH5PI","url":"/users/login","user_ip":"::1","username":"vishymans@gmail.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T01:37:25.937Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T01:37:25.937Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T01:37:25.938Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T01:37:25.938Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T02:00:13.026Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T02:00:13.027Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T02:00:13.027Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T02:00:13.028Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"200","timestamp":"2025-04-24T02:00:29.052Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"Successfully saved new user to db","method":"POST","status":"200","timestamp":"2025-04-24T02:00:29.207Z","url":"/users/register","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T02:00:29.211Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDYwMDI5LCJleHAiOjE3NDU0NjM2Mjl9.Od7gVxbPacUgVwYwM86yi3wd3pBRftn9J28SEUPhXu0","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T02:00:29.223Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"email_id":"asd@asw.com","level":"info","message":"Verification email sent successfully","method":"POST","status":"200","timestamp":"2025-04-24T02:00:30.278Z","url":"/users/send_verification_email"}
+{"level":"info","message":"Verification email sent successfully","method":"GET","status":"200","timestamp":"2025-04-24T02:00:30.280Z","url":"/users/send_verification_email","user_ip":"::1"}
+{"level":"warn","message":"user already logged in","method":"POST","status":"400","timestamp":"2025-04-24T02:12:36.901Z","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T02:12:40.323Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T02:12:40.323Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T02:12:40.323Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T02:12:40.324Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T02:12:48.020Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-24T02:12:48.131Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T02:12:48.133Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDYwNzY4LCJleHAiOjE3NDU0NjQzNjh9.-ZE1JPa3wFSfHGyVV2yrBkQ6VRCH1zlkAtIS226zHOE","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T02:15:12.085Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T02:15:12.086Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T02:15:12.087Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T02:15:12.087Z","url":"/users/logout","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:16:15.622Z","url":"/users/auth","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T02:16:21.287Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-24T02:16:21.468Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T02:16:21.470Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDYwOTgxLCJleHAiOjE3NDU0NjQ1ODF9.dVM4K86o20pnUROhnKoFwzJ3OLmaNTchL0F0zMmxcK0","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T02:17:43.350Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T02:17:43.351Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T02:17:43.351Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T02:17:43.352Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T02:17:51.304Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-24T02:17:51.395Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T02:17:51.397Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDYxMDcxLCJleHAiOjE3NDU0NjQ2NzF9.j7kuuQiYDGheeT76ULurt4W_iIxPiGlO0bbAxuu34VU","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:24:51.395Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:24:51.425Z","url":"/users/auth","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T02:25:14.863Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T02:25:14.864Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T02:25:14.865Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T02:25:14.866Z","url":"/users/logout","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:18.464Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:18.474Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:43.657Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:43.664Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:43.913Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:43.974Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:52.636Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:52.644Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:52.917Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:52.928Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:53.892Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:53.899Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:54.081Z","url":"/users/auth","user_ip":"::1"}
+{"level":"warn","message":"No token provided","method":"POST","status":"400","timestamp":"2025-04-24T02:25:54.089Z","url":"/users/auth","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T02:37:35.743Z","url":"/users/login","user_ip":"::1"}
+{"level":"warn","message":"User authentication failed: invalid password","method":"POST","status":"400","timestamp":"2025-04-24T02:37:35.867Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T02:37:40.213Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-24T02:37:40.310Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T02:37:40.316Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDYyMjYwLCJleHAiOjE3NDU0NjU4NjB9.ihWyXPnNcqsCH-Zb0DOfDuvrNU_dSaEj4X7IhldP9So","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T02:37:46.045Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T02:37:46.046Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T02:37:46.046Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T02:37:46.047Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T02:42:13.811Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-24T02:42:13.920Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T02:42:13.923Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDYyNTMzLCJleHAiOjE3NDU0NjYxMzN9.AERaBiFuQ0bZTMXLDt4OJ2Ckk5g5MZReueY_Aa8y6g4","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T03:40:20.241Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T03:40:20.242Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T03:40:20.243Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T03:40:20.244Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Request received","method":"POST","status":"400","timestamp":"2025-04-24T03:40:23.649Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"Login authenication successful","method":"POST","status":"200","timestamp":"2025-04-24T03:40:23.731Z","url":"/users/login","user_ip":"::1"}
+{"level":"info","message":"JWT created","method":"POST","status":"200","timestamp":"2025-04-24T03:40:23.733Z","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6ImFzZEBhc3cuY29tIiwiaWF0IjoxNzQ1NDY2MDIzLCJleHAiOjE3NDU0Njk2MjN9.XallYJ6lWQ6DBvCGUTs60E-KFitpHYh2NQi1WGp_n98","url":"/users/login","user_ip":"::1","username":"asd@asw.com"}
+{"level":"info","message":"Request received","method":"GET","status":"200","timestamp":"2025-04-24T03:40:25.845Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Destroying jwt token","method":"GET","status":"200","timestamp":"2025-04-24T03:40:25.845Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Token cookie cleared","method":"GET","status":"200","timestamp":"2025-04-24T03:40:25.846Z","url":"/users/logout","user_ip":"::1"}
+{"level":"info","message":"Logout successful","method":"GET","status":"200","timestamp":"2025-04-24T03:40:25.847Z","url":"/users/logout","user_ip":"::1"}
