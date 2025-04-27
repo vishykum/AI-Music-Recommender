@@ -7,7 +7,6 @@ import Home from './pages/Home'
 import Layout from './Layout'
 import RedirectIfAuthenticated from './guards/RedirectIfAuthenticated'
 import RequireAuth from './guards/RequireAuth'
-import { useAuth } from './context/AuthContext'
 
 function App() {
 

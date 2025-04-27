@@ -2,13 +2,14 @@ import axios from "axios";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import './page_styles/Login.css';
 
 const Login = () => {
     //Is authenticated state and setIsAuthenticated function from AuthContext
     const navigate = useNavigate();
 
-    //setIsAuthenticated function from AuthContext
-    const {setIsAuthenticated} = useAuth();
+    //setIsAuthenticated and setUser functions from AuthContext
+    const {setIsAuthenticated, setUser} = useAuth();
 
     //Local states and effects
 
@@ -62,6 +63,10 @@ const Login = () => {
 
             // Set isAuthenticated to true
             setIsAuthenticated(true);
+
+            // Set user
+            setUser(payload.email_id);
+
             navigate("/");
         }catch(error){
             //Handle errors
@@ -89,19 +94,19 @@ const Login = () => {
     };
 
     return (
-        <div className="h-full w-full bg-blue-100 flex items-center justify-center">
-        <div className="bg-white p-8 rounded shadow-md w-96">
-            <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
+        <div className="login-container">
+        <div className="login-card">
+            <h2 className="login-title">Log In</h2>
             <form onSubmit={handleSubmit}>
             <div className="mb-4">
-                <label className="block text-gray-700 mb-2" htmlFor="email">Email</label>
-                <input type="email" id="email" name="email" value={formState.email} className="w-full p-2 border border-gray-300 rounded" onChange={handleInputChange} required />
+                <label className="field-style" htmlFor="email">Email</label>
+                <input type="email" id="email" name="email" value={formState.email} className="input-style" onChange={handleInputChange} required />
             </div>
             <div className="mb-4">
-                <label className="block text-gray-700 mb-2" htmlFor="password">Password</label>
-                <input type="password" id="password" name="password" value={formState.password} className="w-full p-2 border border-gray-300 rounded" onChange={handleInputChange} required />
+                <label className="field-style" htmlFor="password">Password</label>
+                <input type="password" id="password" name="password" value={formState.password} className="input-style" onChange={handleInputChange} required />
             </div>
-            <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Login</button>
+            <button type="submit" className="submit-button">Log In</button>
             <div className={`min-w-full text-center mt-2 text-red-500 ${(loginError) ? '' : 'hidden'}`}><span>Email id or password incorrect</span></div>
             </form>
         </div>

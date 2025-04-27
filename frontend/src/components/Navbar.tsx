@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import './Navbar.css';
 
 
 const Navbar = () => {
@@ -33,18 +34,18 @@ const Navbar = () => {
     };
 
   return (
-    <nav className="bg-gray-800 p-4 sticky top-0">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-lg font-bold"><Link to="/">MyApp</Link></div>
-        <ul className="flex space-x-4">
+    <nav className="navbar">
+      <div className="navbar-flex">
+        <div className="app-title"><Link to="/">MyApp</Link></div>
+        <ul className="options-flex">
           <li>
-          <Link to="/login" className="text-gray-300 hover:text-white">Login</Link>
+          <Link to="/login" className="options">Login</Link>
           </li>
           <li>
-            <Link to="/register" className="text-gray-300 hover:text-white">Register</Link>
+            <Link to="/register" className="options">Register</Link>
           </li>
           <li>
-            <a href="#" className="text-gray-300 hover:text-white" onClick={handleLogout}>Logout</a>
+            <a href="#" className="options" onClick={handleLogout}>Logout</a>
           </li>
         </ul>
       </div>

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer components {
+    .home-container {
+        @apply h-[calc(100vh-3.75rem)] max-h-full w-full max-w-full flex items-center justify-center;
+    }
+
+    .chat-card {
+        @apply flex flex-col h-full w-full max-h-full bg-gradient-to-br from-neutral-800 to-neutral-900 overflow-hidden;
+    }
+
+    .message-flex {
+        @apply w-full flex flex-col items-center bg-none rounded-lg p-2;
+    }
+
+    .chat-area {
+        @apply relative flex flex-col h-full w-full max-h-full bg-none rounded-lg shadow-lg overflow-y-auto;
+    }
+
+    .chat-input {
+        @apply flex flex-row justify-center items-center h-20 w-full bg-none p-1;
+    }
+
+    .chat-textarea {
+        @apply flex-grow h-full w-full bg-neutral-300 rounded-lg p-0.5 overflow-y-scroll;
+    }
+
+    .chat-submit-button {
+        @apply ml-1 h-full w-20 bg-green-300 hover:bg-green-400 rounded-lg;
+    }
+}

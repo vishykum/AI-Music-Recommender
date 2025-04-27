@@ -86,7 +86,8 @@ function userLoggedIn(req, res, next) {
 router.use(express.static(path.join((__dirname, '../pages')))); // Serve static files from the pages directory
 
 router.get('/user_logged_in', authMiddleware, async (req, res) => {
-    sendResponse(res, 200, "User is logged in");
+    const user = jwt.verify(req.cookies.token, process.env.JWT_SECRET_KEY);
+    sendResponse(res, 200, "User is logged in", user.email_id);
 });
 
 router.post('/login', userLoggedIn, async (req, res) => {
@@ -258,7 +259,7 @@ router.post('/register', userLoggedIn, async (req, res) => {
                     email_id: userInfo.email_id
                 });
 
-                sendResponse(res, 400, "Invalid email address");
+                sendResponse(res, 400, "Invalid email");
                 return;
             }
 

@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@layer base {
+    body {
+        @apply bg-gradient-to-br from-neutral-800 to-neutral-600 min-h-screen;
+    }
+}

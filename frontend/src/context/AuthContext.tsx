@@ -5,6 +5,8 @@ import axios from 'axios';
 interface AuthContextType {
     isAuthenticated: boolean;
     setIsAuthenticated: (value: boolean) => void;
+    user: string | null;
+    setUser: (value: string | null) => void;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -12,7 +14,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 //Create a provider component
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({children}) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
-    const [user, setUser] = useState(null);
+    const [user, setUser] = useState<string| null>(null);
 
     //This hook checks if a user is logged in or not upon loading the app
     React.useEffect(() => {
@@ -22,7 +24,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({children}
                 const response = await axios.get(apiUrl, {withCredentials: true});
                 if (response.status === 200) {
                     setIsAuthenticated(true);
-                    setUser(response.data.user); // Assuming the user data is in response.data.user
+                    setUser(response.data.data); // Assuming the user data is in response.data.data
                 } else {
                     setIsAuthenticated(false);
                 }
@@ -35,7 +37,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({children}
     }, []);
 
     return (
-        <AuthContext.Provider value={{isAuthenticated, setIsAuthenticated}}>
+        <AuthContext.Provider value={{isAuthenticated, setIsAuthenticated, user, setUser}}>
             {children}
         </AuthContext.Provider>
     );
